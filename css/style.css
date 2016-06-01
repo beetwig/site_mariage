@@ -1,0 +1,48 @@
+P{
+  color: blue;
+}
+body{
+  background-color: teal;
+}
+header{
+  width: 80%;
+  min-width: 400px;
+  color: Purple;
+  text-align: center;
+  font-size: 1.3 em;
+  padding:0.1em;
+  margin: auto;
+}
+
+figure{
+  width: 80%;
+  margin:auto;
+
+}
+
+.tab-section{
+  background-color:#E3FFAB;
+  width: 100%;
+  /*padding: 5px;
+  max-width: 750px;*/
+  /*margin-left: 180px;*/
+}
+
+.tab-pane{
+  border:1px solid blue;
+}
+
+#imgAccueil{
+  width: 80%;
+  margin: auto;
+}
+figcaption{
+  width: 100%;
+  text-align: center;
+}
+
+#welcomeTxt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

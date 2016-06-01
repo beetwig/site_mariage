@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- En-tete de la page -->
+    
+    <!--
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Titre</title>
+
+    -->
+
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paul & Xinyu</title>
+    <meta name="description" content="Le site de mariage de Paul & Xinyu OLIVIER">
+
+    <!-- links -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootrap & jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Corps de la page -->
+      <div class="row">
+        <header class="page-header hidden-xs col-sm-12">
+          <h1>Fete de mariage de Paul & Xinyu OLIVIER</h1>
+        </header>
+      </div>
+      <div class="row">
+      <section>
+        <nav class="navbar navbar-default navbar-left" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#">Mariage de Paul & Xinyu</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse  navbar-ex1-collapse">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a href="#accueil" data-toggle="tab">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                Accueil</a>
+              </li>
+              <li><a href="#programme" data-toggle="tab">
+                <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+                Programme</a>
+              </li>
+              <li><a href="#hotel" data-toggle="tab">
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                Lieu & Hotels</a>
+              </li>
+              <li><a href="#liste" data-toggle="tab">
+                <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+                Liste de Mariage</a>
+              </li>
+              <li><a href="#album" data-toggle="tab">
+                <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                Album photo</a>
+              </li>
+              <li><a href="#covoiturage" data-toggle="tab">
+                <span class="glyphicon glyphicon-road" aria-hidden="true"></span>
+                Covoiturage</a>
+              </li>
+              <li><a href="#contacts" data-toggle="tab">
+                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                Contacts</a>
+              </li>
+            </ul> 
+          </div>
+        </nav>
+        <div class="tab-content col-sm-9" style="border:1px solid red;">
+          <div class="tab-pane active in" id="accueil">Accueil</div>
+          <div class="tab-pane" id="programme"><h2>Programme</h2></div>
+          <div class="tab-pane" id="hotel">Hotel</div>
+          <div class="tab-pane" id="liste"><h2>Liste de Mariage</h2></div>
+          <div class="tab-pane" id="album"><h2>Album photo</h2></div>
+          <div class="tab-pane" id="covoiturage"><h2>Covoiturage</h2></div>
+          <div class="tab-pane" id="contacts"><h2>Contacts</h2></div>
+        </div>
+      </section>
+      </div>
+      <div class="row">
+        <footer class="well col-xs-12">
+          <p style="text-align:center;">- Paul'tests -</p>
+        </footer>
+      </div>
+    </div>
+    <!-- Scripts to load at the end -->
+    <!-- Set JQuery env -->
+    <script   src="http://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!-- functions jQuery -->
+    <script type="text/javascript">
+      $(function(){
+        $("#accueil").load("../accueil.html ");
+        $("#programme").load("../programme.html ");
+        $("#hotel").load("../localisation.html ");
+        $("#liste").load("../liste.html ");
+        $("#album").load("../album.html ");
+        $("#covoiturage").load("../covoiturage.html ");
+        $("#contacts").load("../contact.html ");
+      });
+    </script>
+
+  </body>
+</html>
