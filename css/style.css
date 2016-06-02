@@ -1,5 +1,7 @@
-body{
-  background-color: #5D86C5;
+body {
+  color:black;
+  background-color:white;
+  background-image:url(img/bg/bg1.jpg);
 }
 
 header{
@@ -21,7 +23,14 @@ figure{
   
   width: 100%;
 }
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
 .box-section {
     background: #fff;
     border: 1px solid #dedede;
