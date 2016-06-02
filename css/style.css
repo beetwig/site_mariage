@@ -1,9 +1,7 @@
-P{
-  color: blue;
-}
 body{
-  background-color: teal;
+  background-color: #5D86C5;
 }
+
 header{
   width: 80%;
   min-width: 400px;
@@ -15,26 +13,25 @@ header{
 }
 
 figure{
-  width: 80%;
+  width: 60%;
   margin:auto;
-
 }
 
 .tab-section{
-  background-color:#E3FFAB;
+  
   width: 100%;
-  /*padding: 5px;
-  max-width: 750px;*/
-  /*margin-left: 180px;*/
 }
 
-.tab-pane{
-  border:1px solid blue;
+.box-section {
+    background: #fff;
+    border: 1px solid #dedede;
+    padding: 15px;
+    position: relative;
 }
 
 #imgAccueil{
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  /*margin: auto;*/
 }
 figcaption{
   width: 100%;
